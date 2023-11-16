@@ -52,6 +52,49 @@ Heap sort is a comparison-based sorting technique based on Binary Heap data stru
 
 
 
+1. Arrays (Insertion and Deletion Operations):
+   - How does the insertion operation in an work?
+     - The insertion operation in an array involves adding a new element at a specified position in the array while shifting the existing elements, if necessary, to accommodate the new element.
+
+   - What is the time complexity of inserting an element in an array at the end?
+     - The time complexity of inserting an element at the end of an array is O(1) on average. This is because no shifting of existing elements is required, and the new element can be added directly to the end.
+
+   - Explain the process of deleting an element from an array.
+     - Deleting an element from an array involves removing a specific element from the array and shifting the remaining elements to fill the gap left by the deleted element.
+
+   - Discuss the time complexity of the deletion operation in an array.
+     - The time complexity of the deletion operation in an array is O(n) on average. This because, in the worst-case scenario, if the element to be deleted is at the beginning of the array, all the subsequent elements need to be shifted.
+
+2. Searching Techniques (Linear and Binary Search):
+   - Differentiate between linear and binary search algorithms.
+     - Linear search involves sequentially checking each element in a list until the desired element is found or the end of the list is reached. Binary search, on the other hand, is a divide-and-conquer algorithm that works on sorted arrays by repeatedly dividing the search interval in half.
+
+   - What is the time complexity of linear search? What about binary search?
+     - The time complexity of linear search is O(n) as it may need to iterate through all elements in the worst-case scenario. The time complexity of binary search is O(logn) because it halves the search space in each step.
+
+   - Explain the working of binary search and its prerequisite on the array being sorted.
+     - Binary search works by comparing the middle element of the array with the target element and continuously narrowing down the search interval until the element is found or the interval is empty. The array must be sorted for binary search to work correctly.
+
+   - When would you choose to use linear search over binary search, and vice versa?
+     - Linear search is preferred when the list is unsorted and when there is a need to find the first occurrence of an element. On the other hand, binary search is suitable for sorted lists and provides a faster search in larger datasets.
+
+3. Sorting Techniques (Bubble, Selection, and Insertion Sort):
+   - How does bubble sort algorithm work? Can you explain its time complexity?
+     - Bubble sort works by repeatedly swapping adjacent elements if they are in the wrong order. The time complexity of bubble sort is O(n^2) in the average and worst cases.
+
+   - Compare and contrast the time complexity of selection sort and insertion sort.
+     - Both selection sort and insertion sort have average and worst-case time complexities of O(n^2). However, insertion performs better when the list is almost sorted, while selection sort always takes the same time, regardless of the input.
+
+   - Explain the process of sorting an array using the insertion sort technique.
+     - Insertion sort builds a sorted array one element at a time by taking one element from the input data and comparing it with the elements in the sorted list until it finds its correct position.
+
+   - Under what circumstances would you choose one sorting algorithm over another?
+     - The choice of sorting algorithm depends on the nature of the data to be sorted. For small datasets or nearly sorted lists, insertion sort may be preferred, while for large datasets, quicksort or mergesort may be more suitable.
+
+These are the answers to the first set of viva questions. If you would like me to continue providing answers to the remaining questions or have specific topics in mind, please feel free to let me know!  
+
+
+
 
 
 
