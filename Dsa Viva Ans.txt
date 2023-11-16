@@ -1,0 +1,57 @@
+What is an array in DSA?
+
+An array is a linear data structure that collects elements of the same data type and stores them in contiguous and adjacent memory locations.
+
+what is Searching in dsa?
+
+The process of finding the desired information from the set of items stored in the form of elements in the computer memory.
+
+What does sorting mean DSA?
+
+The arrangement of data in a preferred order is called sorting in
+the data structure. 
+
+What is a Linked List?
+A Linked List is a linear data structure which looks like a chain of nodes, where each node is a different element. Unlike Arrays,
+Linked List elements are not stored at a contiguous location. 
+
+What is Doubly Linked List?
+A doubly linked list (DLL) is a special type of linked list in which each node contains a pointer to
+the previous node as well as the next node of the linked list.
+
+What is Stack?
+Stack is a linear data structure that follows a particular order in which the operations are performed. 
+The order may be LIFO(Last In First Out) or FILO(First In Last Out). LIFO implies that the element that is inserted last, 
+comes out first and FILO implies that the element that is inserted first, comes out last.
+
+What is Queue Data Structure?
+A Queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.
+
+What is Recursion? 
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function. 
+
+What is a recursive method in DSA?
+Recursion is a process in which the function calls itself indirectly or directly in order to solve the problem.
+
+Recursive sorting refers to the application of sorting algorithms that use recursive techniques to efficiently sort a collection of items. 
+
+what is tree? 
+ tree data structure is a hierarchical structure that is used to represent and organize data in a way that is easy to navigate and search. It is a collection of nodes that are connected by edges and has a hierarchical relationship between the nodes. 
+
+The topmost node of the tree is called the root, and the nodes below it are called the child nodes. Each node can have multiple child nodes, and these child nodes can also have their own child nodes, forming a recursive structure.
+
+
+what is binary tree?
+A Binary Search Tree (BST) is a special type of binary tree in which the left child of a node has a value less than the node’s value and the right child has a value greater than the node’s value.
+
+The root of a BST is the node that has the smallest value in the left subtree and the largest value in the right subtree. Each left subtree is a BST with nodes that have smaller values than the root and each right subtree is a BST with nodes that have larger values than the root.
+
+what is heaps?
+
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements
+
+
+
+
+
+
